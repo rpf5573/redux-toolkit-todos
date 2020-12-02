@@ -7,7 +7,7 @@ const Counter = ({ count,  increase }) => {
   return (
     <div>
       <button onClick={() => {
-        increase(count+1)
+        increase()
       }}>
         {count}
       </button>
